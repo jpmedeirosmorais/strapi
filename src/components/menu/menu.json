@@ -2,22 +2,23 @@
   "collectionName": "components_menu_menus",
   "info": {
     "displayName": "menu",
-    "icon": "bars"
+    "icon": "bars",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "logo_text": {
       "type": "string",
       "unique": false,
-      "required": true
+      "required": false
     },
     "menu_link": {
       "displayName": "menu_links",
